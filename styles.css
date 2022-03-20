@@ -5,11 +5,6 @@
     --t1resultbg: hsl(224, 36%, 15%);
 
     --t1numbgColor:  hsl(225, 21%, 49%);
-
-    /* Theme 2 */
-    --t2mainbg: hsl(0, 0%, 90%);
-    --t2keypadbg: hsl(0, 5%, 81%);
-    --t2numbgColor:  hsl(185, 42%, 37%);
 }
 
 body{
@@ -26,10 +21,11 @@ section{
 
 
 button{
+    background-color: white;
     color:hsl(224, 28%, 35%);
     border-radius: 10px;
     margin-left: 8px;
-    border-bottom: rgba(128, 128, 128, 0.425) 4px solid;
+    border-bottom: 4px solid hsl(28, 16%, 65%);
     font-size: smaller;
     display: flex;
     align-items: center;
@@ -68,13 +64,26 @@ button{
     background-color:hsl(6, 63%, 50%);
     font-size: 15px;
     padding: 0.7rem;
-    border-bottom: hsl(6, 70%, 34%) 4px solid;
+    border-bottom: 4px solid hsl(6, 70%, 34%);
 }
 
 .letraPequena{
     font-size: 20px;
 }
 
+.t1{
+    color: hsl(6, 63%, 50%);
+}
+
+.t2{
+    color: hsl(25, 98%, 40%);
+}
+
+
+
+.t3{
+    color: hsl(176, 100%, 44%);
+}
 
 /* hsl(228, 45%, 44%);; */
 
