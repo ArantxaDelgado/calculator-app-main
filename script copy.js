@@ -47,8 +47,9 @@ numbers.addEventListener("click", function (event) {
 })
 
 let tema2 = document.querySelector("#theme2");
+
 tema2.addEventListener("click", function () {
-    tema2.classList.add("theme2");
+    tema2.classList.add("t2Btn");
 })
 
 //Hacer una función para cambiar el color.

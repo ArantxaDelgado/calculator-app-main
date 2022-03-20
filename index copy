@@ -21,47 +21,47 @@
 
 <body class="m-3">
   <section class="container">
-    <div id="cabecera" class="d-flex justify-content-between mb-3 cabt1">
+    <div id="cabecera" class="d-flex justify-content-between mb-3">
       <h1>calc</h1>
       <div>
-        <h2>theme <span id="theme1">1</span> <span id="theme2">2</span> <span id="theme3">3</span></h2>
+        <h2>theme <span id="theme t1">1</span> <span id="theme t2">2</span> <span id="theme t3">3</span></h2>
       </div>
     </div>
 
-  <div id="resultadocontainer" class="d-flex justify-content-end mb-4 ResContainert1">
-      <span id="resultado" class="p-2 me-4 rest1"></span>
+    <div id="resultadocontainer" class="d-flex justify-content-end mb-4">
+      <span id="resultado" class="p-2 me-4" >000</span>
     </div>
 
-    <div id="numbers" class="d-grid gap-2 justify-content-around p-5 calcBgt1">
+    <div id="numbers" class="d-grid gap-2 justify-content-around p-4">
       <div class="row">
-        <button id="num" class="col colort1">7</button>
-        <button id="num" class="col colort1">8</button>
-        <button id="num" class="col colort1">9</button>
-        <button id="borrar" class="col colort1">C</button>
+        <button class="col">7</button>
+        <button class="col">8</button>
+        <button class="col">9</button>
+        <button id="borrar del" class="col">DEL</button>
 
       </div>
 
       <div class="row">
-        <button id="num" class="col colort1">4</button>
-        <button id="num" class="col colort1">5</button>
-        <button id="num" class="col colort1">6</button>
-        <button class="col colort1">+</button>
+        <button class="col">4</button>
+        <button class="col">5</button>
+        <button class="col">6</button>
+        <button class="col">+</button>
 
       </div>
 
       <div class="row">
-        <button id="num" class="col colort1">1</button>
-        <button id="num" class="col colort1">2</button>
-        <button id="num" class="col colort1">3</button>
-        <button class="col colort1">-</button>
+        <button class="col">1</button>
+        <button class="col">2</button>
+        <button class="col">3</button>
+        <button class="col">-</button>
 
       </div>
 
       <div class="row">
-        <button id="num" class="col colort1">.</button>
-        <button id="num" class="col colort1">0</button>
-        <button id="num" class="col colort1">/</button>
-        <button id="num" class="col colort1">*</button>
+        <button class="col">.</button>
+        <button class="col">0</button>
+        <button class="col">/</button>
+        <button class="col">*</button>
 
       </div>
 
@@ -71,7 +71,7 @@
       </div>
     </div>
   </section>
-  <script src="/script.js"></script>
+  <script src="/script copy.js"></script>
 
 </body>
 
