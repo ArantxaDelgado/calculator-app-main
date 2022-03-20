@@ -107,13 +107,13 @@ t3btn.addEventListener("click", function () {
 })
 
 t1btn.addEventListener("click", function () {
-    t3btn.classList.remove("t1");
+    t3btn.classList.remove("t3");
     t2btn.classList.remove("t2");
-    t1btn.classList.add("t3")
+    t1btn.classList.add("t1")
     body.style.backgroundColor = "hsl(222, 26%, 31%)";
     calcBg.style.backgroundColor = "hsl(223, 31%, 20%)";
     resultadocontainer.style.backgroundColor = "hsl(224, 36%, 15%)";
-    cabecera.style.color = "white)";
+    cabecera.style.color = "white";
     resultado.style.color = "white";
     
 
